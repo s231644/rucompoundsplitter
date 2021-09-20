@@ -1,0 +1,365 @@
+rule,word_d,pos_d,words_m,poss_m,word_h,pos_h
+rule1026([полу] + tgr -> adv),полулёжа,adv,половина,noun,лёжа,tgr
+rule1026([полу] + adv -> adv),полутемно,adv,половина,noun,темно,adv
+rule1027([мимо/само] + verb + ом -> adv),мимоходом,adv,мимо,adv,ходить,verb
+rule1027([мимо/само] + verb + ом -> adv),мимоездом,adv,мимо,adv,ездить,verb
+rule1028(в + [пол] + noun + GEN -> adv),в полнеба,adv,половина,noun,небо,noun
+rule1028(в + [пол] + noun + GEN -> adv),в полроста,adv,половина,noun,рост,noun
+rule1028(в + [пол] + noun + GEN -> adv),вполголоса,adv,половина,noun,голос,noun
+rule1028(в + [пол] + noun + GEN -> adv),вполпьяна,adv,половина,noun,пьяный,adj
+rule1029(в + [пол/три] + adj + а -> adv),втридешева,adv,три,num,дешёвый,adj
+rule961([полу/само] + verb -> verb),полузакрыть,verb,половина,noun,закрыть,verb
+rule961([полу/само] + verb -> verb),полулежать,verb,половина,noun,лежать,verb
+rule961([полу/само] + verb -> verb),полупеть,verb,половина,noun,петь,verb
+rule961([полу/само] + verb -> verb),саморазвлекаться,verb,сам,pron,развлекаться,verb
+rule961([noun + ITFX] + verb -> verb),злоупотребить,verb,зло,noun,употребить,verb
+rule962(noun + [фицировать] -> verb),теплофицировать,verb,-фицировать,suffixoid,тепло,noun
+rule962(noun + [фицировать] -> verb),газофицировать,verb,-фицировать,suffixoid,газ,noun
+rule962(adj + [фицировать] -> verb),русифицировать,verb,-фицировать,suffixoid,русский,adj
+rule767([noun + ITFX] + verb + н1(ый) -> adj),гостеприимный,adj,гость,noun,принять,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),глиномятный,adj,глина,noun,мять,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),водогрейный,adj,вода,noun,греть,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),победоносный,adj,победа,noun,нести,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),стеклодувный,adj,стекло,noun,дуть,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),книгописный,adj,книга,noun,писать,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),желчегонный,adj,желчь,noun,гнать,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),шерстомойный,adj,шерсть,noun,мыть,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),судоходный,adj,судно,noun,ходить,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),тихоходный,adj,тихий,adj,ходить,verb
+rule767([noun + ITFX] + verb + н1(ый) -> adj),водоносный,adj,вода,noun,нести,verb
+rule767([adj + ITFX] + verb + н1(ый) -> adj),самодельный,adj,сам,pron,делать,verb
+rule767([adj + ITFX] + verb + н1(ый) -> adj),мимолётный,adj,мимо,adv,лететь,verb
+rule768([noun + ITFX] + verb + тельн(ый)/ительн(ый) -> adj),берегоукрепительный,adj,берег,noun,укрепить,verb
+rule768([noun + ITFX] + verb + тельн(ый)/ительн(ый) -> adj),землечерпательный,adj,земля,noun,черпать,verb
+rule768([noun + ITFX] + verb + тельн(ый)/ительн(ый) -> adj),станкостроительный,adj,станок,noun,строить,verb
+rule769([noun + ITFX] + verb + енн(ый) -> adj),мыловаренный,adj,мыло,noun,варить,verb
+rule769([noun + ITFX] + verb + енн(ый) -> adj),клееваренный,adj,клей,noun,варить,verb
+rule769([noun + ITFX] + verb + лив(ый)/чив(ый)/ив(ый) -> adj),человеколюбивый,adj,человек,noun,любить,verb
+rule769([noun + ITFX] + verb + лив(ый)/чив(ый)/ив(ый) -> adj),себялюбивый,adj,себя,pron,любить,verb
+-нн(ый),самонадеянный,adj,сам,pron,надеяться,verb
+-ск(ий),шапкозакидательский,adj,шапка,noun,закидать,verb
+-н1(ый),боеготовный,adj,бой,noun,готовый,adj
+rule772([adj + ITFX] + noun + 0(ый) -> adj),островерхий,adj,острый,adj,верх,noun
+rule772([adj + ITFX] + noun + 0(ый) -> adj),жестокосердый,adj,жестокий,adj,сердце,noun
+rule772([adj + ITFX] + noun + 0(ый) -> adj),длиннополый,adj,длинный,adj,пола,noun
+rule772([adj + ITFX] + noun + 0(ый) -> adj),плоскокрыший,adj,плоский,adj,крыша,noun
+rule772([adj + ITFX] + noun + 0(ый) -> adj),раздельнополый,adj,раздельный,adj,пол,noun
+rule772([adj + ITFX] + noun + 0(ый) -> adj),метельчатоколосый,adj,метельчатый,adj,колос,noun
+rule772([noun + ITFX] + noun + 0(ый) -> adj),головоногий,adj,голова,noun,нога,noun
+rule772([noun + ITFX] + noun + 0(ый) -> adj),горбоносый,adj,горб,noun,нос,noun
+rule772([num + ITFX] + noun + 0(ый) -> adj),трёхпалый,adj,три,num,палец,noun
+rule772([num + ITFX] + noun + 0(ый) -> adj),одноглазый,adj,один,num,глаз,noun
+rule752(noun + 0(ый) -> adj),лупоглазый,adj,лупить,verb,глаз,noun
+rule773([adv] + verb + 0(ий) -> adj),прямоезжий,adj,прямо,adv,ездить,verb
+rule776([adv] + part -> adj),инакодействующий,adj,инако,adv,действующий,part
+rule776([adv] + part -> adj),всевозрастающий,adj,всё,adv,возрастающий,part
+rule776([adv] + part -> adj),постояннодействующий,adj,постоянно,adv,действующий,part
+rule776([adv] + part -> adj),всепоглощающий,adj,всё,pron,поглощающий,part
+rule776([adv] + part -> adj),глубокоуважаемый,adj,глубоко,adv,уважаемый,part
+rule776([adv] + part -> adj),быстроразвивающийся,adj,быстро,adv,развивающийся,part
+rule776([adv] + adj -> adj),высокоточный,adj,высоко,adv,точный,adj
+rule776([adv] + adj -> adj),высокопрочный,adj,высоко,adv,прочный,adj
+rule776([adv] + adj -> adj),вечнозелёный,adj,вечно,adv,зелёный,adj
+rule754([noun + ITFX] + adj -> adj),бензораздаточный,adj,бензо,glroot,раздаточный,adj
+rule754([noun + ITFX] + adj -> adj),агропромышленный,adj,агро,glroot,промышленный,adj
+rule754([noun + ITFX] + adj -> adj),телеуправляемый,adj,теле,glroot,управляемый,adj
+rule754([noun + ITFX] + adj -> adj),электродоильный,adj,электро,glroot,доильный,adj
+rule754([noun + ITFX] + adj -> adj),огнеупорный,adj,огонь,noun,упорный,adj
+rule754([noun + ITFX] + adj -> adj),автоподъёмный,adj,авто,glroot,подъёмный,adj
+rule754([noun + ITFX] + adj -> adj),панамериканский,adj,пан,glroot,американский,adj
+rule754([noun + ITFX] + adj -> adj),дельфиноподобный,adj,дельфин,noun,подобный,adj
+rule754([noun + ITFX] + adj -> adj),зигзагообразный,adj,зигзаг,noun,-образный,suffixoid
+rule754([noun + ITFX] + adj -> adj),вулканогенный,adj,вулкан,noun,-генный,suffixoid
+rule754([noun + ITFX] + adj -> adj),макрокристаллический,adj,макро-,glroot,кристаллический,adj
+rule754([noun + ITFX] + adj -> adj),громоподобный,adj,гром,noun,подобный,adj
+rule754([noun + ITFX] + adj -> adj),лесопарковый,adj,лес,noun,парковый,adj
+rule754([noun + ITFX] + adj -> adj),человекообразный,adj,человек,noun,-образный,suffixoid
+rule754([noun + ITFX] + adj -> adj),морозостойкий,adj,мороз,noun,стойкий,adj
+rule754([noun + ITFX] + adj -> adj),морозостойкий,adj,мороз,noun,стойкий,adj
+rule754([noun + ITFX] + adj -> adj),биогенный,adj,био-,glroot,-генный,suffixoid
+rule754([noun + ITFX] + adj -> adj),засухоустойчивый,adj,засуха,noun,устойчивый,adj
+rule754([noun + ITFX] + adj -> adj),жирорастворимый,adj,жир,noun,растворимый,adj
+rule754([noun + ITFX] + adj -> adj),механомонтажный,adj,механо,glroot,монтажный,adj
+rule754([adj + ITFX] + adj -> adj),продольно-строгальный,adj,продольный,adj,строгальный,adj
+rule754([adj + ITFX] + adj -> adj),низкокачественный,adj,низкий,adj,качественный,adj
+rule754([adj + ITFX] + adj -> adj),всероссийский,adj,всё,pron,российский,adj
+rule754([adj + ITFX] + adj -> adj),добрососедский,adj,добрый,adj,соседский,adj
+rule754([adj + ITFX] + adj -> adj),позднеспелый,adj,поздний,adj,спелый,adj
+rule754([adj + ITFX] + adj -> adj),ранневесенний,adj,ранний,adj,весенний,adj
+rule754([adj + ITFX] + adj -> adj),горнопроходческий,adj,горный,adj,проходческий,adj
+rule754([adj + ITFX] + adj -> adj),анархо-синдикалистский,adj,анархичный,adj,синдикалистский,adj
+rule754([adj + ITFX] + adj -> adj),крупнопузырчатый,adj,крупный,adj,пузырчатый,adj
+rule754([adj + ITFX] + adj -> adj),общеизвестный,adj,общий,adj,известный,adj
+rule754([adj + ITFX] + adj -> adj),всепокорнейший,adj,всё,pron,покорнейший,adj
+rule754([adj + ITFX] + adj -> adj),научно-технический,adj,научный,adj,технический,adj
+rule754([adj + ITFX] + adj -> adj),холоднотянутый,adj,холодный,adj,тянутый,adj
+rule754([adj + ITFX] + adj -> adj),плодово-ягодный,adj,плодовый,adj,ягодный,adj
+rule754([adj + ITFX] + adj -> adj),круглогодовой,adj,круглый,adj,годовой,adj
+rule754([adj + ITFX] + adj -> adj),верхневолжский,adj,верхний,adj,волжский,adj
+rule754([adj + ITFX] + adj -> adj),самомалейший,adj,сам,pron,малейший,adj
+rule754([adj + ITFX] + adj -> adj),тонковолокнистый,adj,тонкий,adj,волокнистый,adj
+rule754([adj + ITFX] + adj -> adj),тактико-технический,adj,тактический,adj,технический,adj
+rule754([adj + ITFX] + adj -> adj),псевдоантичный,adj,псевдо-,prefixoid,античный,adj
+rule754([adj + ITFX] + adj -> adj),ярко-синий,adj,ярко-синий,adj,синий,adj
+rule754([adj + ITFX] + adj -> adj),ежесменный,adj,еже-,prefixoid,сменный,adj
+rule754([adj + ITFX] + adj -> adj),орехово-смуглый,adj,ореховый,adj,смуглый,adj
+rule754([adj + ITFX] + adj -> adj),ежемгновенный,adj,еже-,prefixoid,мгновенный,adj
+rule754([adj + ITFX] + adj -> adj),псевдоноваторский,adj,псевдо-,prefixoid,новаторский,adj
+rule754([adj + ITFX] + adj -> adj),лирикоэпический,adj,лирический,adj,эпический,adj
+rule754([adj + ITFX] + adj -> adj),самовластный,adj,сам,pron,властный,adj
+rule754([adj + ITFX] + adj -> adj),индоевропейский,adj,индийский,adj,европейский,adj
+rule754([adj + ITFX] + adj -> adj),глухо-пепельно-оранжевый,adj,глухой;пепельный,adj;adj,оранжевый,adj
+rule754([adj + ITFX] + adj -> adj),тёмно-коричневый,adj,тёмный,adj,коричневый,adj
+rule754([num + ITFX] + adj -> adj),трехсекционный,adj,три,num,секционный,adj
+rule754([num + ITFX] + adj -> adj),многогорький,adj,много,num,горький,adj
+rule754([num + ITFX] + adj -> adj),многосерийный,adj,много,num,серийный,adj
+rule754([num + ITFX] + adj -> adj),многоканальный,adj,много,num,канальный,adj
+rule754([num + ITFX] + adj -> adj),пятикомнатный,adj,пять,num,комнатный,adj
+rule754([num + ITFX] + adj -> adj),стопроцентный,adj,сто,num,процентный,adj
+rule754([noun + ITFX] + part -> adj),газообеспеченный,adj,газ,noun,обеспеченный,part
+rule754([noun + ITFX] + part -> adj),самотвердеющий,adj,сам,pron,твердеющий,part
+rule754([noun + ITFX] + part -> adj),полуосвещенный,adj,половина,noun,освещенный,part
+rule754([adj + ITFX] + part -> adj),свежесрубленный,adj,свежий,adj,срубленный,part
+rule754([adj + ITFX] + part -> adj),приёмно-передающий,adj,приёмный,adj,передающий,part
+rule558([noun + ITFX] + verb + тель -> noun),пятновыводитель,noun,пятно,noun,выводить,verb
+rule558([noun + ITFX] + verb + тель -> noun),кормоизмельчитель,noun,корм,noun,измельчить,verb
+rule558([noun + ITFX] + verb + тель -> noun),мореплаватель,noun,море,noun,плавать,verb
+rule558([adj + ITFX] + verb + тель -> noun),первооткрыватель,noun,первый,adj,открывать,verb
+rule558([adj + ITFX] + verb + тель -> noun),долгожитель,noun,долгий,adj,жить,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),авианосец,noun,авиа,glroot,нести,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),китобоец,noun,кит,noun,бить,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),космопроходец,noun,космос,noun,проходить,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),вертолётоносец,noun,вертолёт,noun,нести,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),баснописец,noun,басня,noun,писать,verb
+rule559([noun + ITFX] + verb + ец/нец/енец/омец -> noun),камнебоец,noun,камень,noun,бить,verb
+rule559([adj + ITFX] + verb + ец/нец/енец/омец -> noun),ясновидец,noun,ясный,adj,видеть,verb
+rule559([adj + ITFX] + verb + ец/нец/енец/омец -> noun),скорописец,noun,скорый,adj,писать,verb
+rule559([num + ITFX] + verb + ец/нец/енец/омец -> noun),троеборец,noun,трое,num,бороться,verb
+rule560([noun + ITFX] + verb + щик -> noun),снегопогрузчик,noun,снег,noun,погрузить,verb
+rule560([noun + ITFX] + verb + щик -> noun),судосборщик,noun,судно,noun,сбирать,verb
+rule560([noun + ITFX] + verb + щик -> noun),асфальтоукладчик,noun,асфальт,noun,укладывать,verb
+rule561([noun + ITFX] + verb + льщик -> noun),сталеплавильщик,noun,сталь,noun,плавить,verb
+rule561([noun + ITFX] + verb + льщик -> noun),сноповязальщик,noun,сноп,noun,вязать,verb
+rule562([noun + ITFX] + verb + ник/еник/енник/ик -> noun),богохульник,noun,бог,noun,хулить,verb
+rule562([noun + ITFX] + verb + ник/еник/енник/ик -> noun),соломоподъемник,noun,солома,noun,поднять,verb
+rule562([noun + ITFX] + verb + ник/еник/енник/ик -> noun),рукомойник,noun,рука,noun,мыть,verb
+rule563([noun + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),водокачка,noun,вода,noun,качать,verb
+rule563([noun + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),овощечистка,noun,овощ,noun,чистить,verb
+rule563([noun + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),кофемолка,noun,кофе,noun,молоть,verb
+rule563([noun + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),мясорубка,noun,мясо,noun,рубить,verb
+rule563([noun + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),землеройка,noun,земля,noun,рыть,verb
+rule563([adj + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),самокрутка,noun,сам,pron,крутить,verb
+rule563([adj + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),скороварка,noun,скорый,adj,варить,verb
+rule563([adj + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),самосброска,noun,сам,pron,сбросить,verb
+rule563([num + ITFX] + verb + к(а)/овк(а)/ёжк(а) -> noun),малодойка,noun,мало,num,доить,verb
+rule564([noun + ITFX] + verb + лк(а) -> noun),кормодробилка,noun,корм,noun,дробить,verb
+rule564([noun + ITFX] + verb + лк(а) -> noun),коноплемялка,noun,конопля,noun,мять,verb
+rule564([noun + ITFX] + verb + лк(а) -> noun),сенокосилка,noun,сено,noun,косить,verb
+rule565([noun + ITFX] + verb + н(я)/отн(я)/овн(я) -> noun),шерстобойня,noun,шерсть,noun,бить,verb
+rule565([noun + ITFX] + verb + н(я)/отн(я)/овн(я) -> noun),маслобойня,noun,масло,noun,бить,verb
+rule565([noun + ITFX] + verb + н(я)/отн(я)/овн(я) -> noun),рыборазводня,noun,рыба,noun,разводить,verb
+rule565([adj + ITFX] + verb + н(я)/отн(я)/овн(я) -> noun),скоропечатня,noun,скорый,adj,печатать,verb
+rule566([noun + ITFX] + verb + ств(о) -> noun),вспышкопускательство,noun,вспышка,noun,пускать,verb
+rule566([noun + ITFX] + verb + ств(о) -> noun),мыслекрадство,noun,мысль,noun,красть,verb
+rule566([noun + ITFX] + verb + ств(о) -> noun),рыболовство,noun,рыба,noun,ловить,verb
+rule566([adj + ITFX] + verb + ств(о) -> noun),пустозвонство,noun,пустой,adj,звонить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),телевидение,noun,теле,glroot,видеть,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),общежитие,noun,общий,adj,жить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),чаепитие,noun,чай,noun,пить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),дружелюбие,noun,друг,noun,любить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),самолётовождение,noun,самолёт,noun,водить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),слуходелье,noun,слух,noun,делать,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),авиастроение,noun,авиа,glroot,строить,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),малописание,noun,мало,num,писать,verb
+rule567([noun + ITFX] + verb + ниj(е) -> noun),краеведение,noun,край,noun,вести,verb
+rule567([adj + ITFX] + verb + ниj(е) -> noun),тонкопрядение,noun,тонкий,adj,прясть,verb
+rule568([noun + ITFX] + verb + ин(а) -> noun),водомоина,noun,вода,noun,мыть,verb
+rule568([noun + ITFX] + verb + ин(а) -> noun),водороина,noun,вода,noun,рыть,verb
+rule569([noun + ITFX] + verb + йц(а) -> noun),кровопийца,noun,кровь,noun,пить,verb
+rule569([noun + ITFX] + verb + ль/оль -> noun),пусторосль,noun,пустой,adj,расти,verb
+rule570([adj + ITFX] + noun + ник/атник/арник/овник -> noun),единомышленник,noun,единый,adj,мысль,noun
+rule570([adj + ITFX] + noun + ник/атник/арник/овник -> noun),дальневосточник,noun,дальний,adj,восток,noun
+rule570([num + ITFX] + noun + ник/атник/арник/овник -> noun),однокашник,noun,один,num,каша,noun
+rule570([num + ITFX] + noun + ник/атник/арник/овник -> noun),одноклубник,noun,один,num,клуб,noun
+rule570([noun + ITFX] + noun + ник/атник/арник/овник -> noun),судоремонтник,noun,судно,noun,ремонт,noun
+rule331(noun + щик/чик/овщик -> noun),краснодеревщик,noun,красный,adj,дерево,noun
+rule331(noun + щик/чик/овщик -> noun),белодеревщик,noun,белый,adj,дерево,noun
+rule410(noun + к(а) -> noun),кривошейка,noun,кривой,adj,шея,noun
+rule410(noun + к(а) -> noun),корненожка,noun,корень,noun,нога,noun
+rule410(noun + к(а) -> noun),косоворотка,noun,косой,adj,ворот,noun
+rule410(noun + к(а) -> noun),вуалехвостка,noun,вуаль,noun,хвост,noun
+rule410(noun + к(а) -> noun),плоскотелка,noun,плоский,adj,тело,noun
+rule504*(noun + j(е) -> noun),первозимье,noun,первый,adj,зима,noun
+rule504*(noun + j(е) -> noun),одночасье,noun,один,num,час,noun
+rule504*(noun + j(е) -> noun),редколесье,noun,редкий,adj,лес,noun
+rule504*(noun + j(е) -> noun),Средиземноморье,noun,Средиземное,prop,море,noun
+rule504*(noun + j(е) -> noun),Волгокамье,noun,Волга,prop,Кама,prop
+rule504*(noun + j(е) -> noun),свободомыслие,noun,свобода,noun,мысль,noun
+rule504*(noun + j(е) -> noun),перволедье,noun,первый,adj,лёд,noun
+rule504*(noun + j(е) -> noun),травополье,noun,трава,noun,поле,noun
+rule398(noun + ок/ик -> noun),четырёхстенок,noun,четыре,num,стена,noun
+rule398(noun + ок/ик -> noun),перволёдок,noun,первый,adj,лёд,noun
+rule398(noun + ок/ик -> noun),первогодок,noun,первый,adj,год,noun
+rule332(noun + ец/инец -> noun),народоволец,noun,народ,noun,воля,noun
+rule332(noun + ец/инец -> noun),старообрядец,noun,старый,adj,обряд,noun
+rule337(noun + ан-ин/чан-ин -> noun),инопланетянин,noun,иной,adj,планета,noun
+-ц(ы),острогубцы,noun,острый,adj,губа,noun
+rule578*(noun + иj(а) -> noun),полихромия,noun,поли,glroot,хром,glroot
+rule578*(noun + иj(а) -> noun),фототипия,noun,фото,glroot,тип,glroot
+rule578*(noun + иj(а) -> noun),Черногория,noun,чёрный,adj,гора,noun
+rule446(verb + 0m2 -> noun),рукосуй,noun,рука,noun,совать,verb
+rule446(verb + 0m2 -> noun),шерстобит,noun,шерсть,noun,бить,verb
+rule446(verb + 0m2 -> noun),мотовоз,noun,мото,glroot,возить,verb
+rule446(verb + 0m2 -> noun),космолёт,noun,космос,noun,лететь,verb
+rule446(verb + 0m2 -> noun),пчеловод,noun,пчела,noun,водить,verb
+rule446(verb + 0m2 -> noun),газотурбоход,noun,газ;труба,noun;noun,ходить,verb
+rule446(verb + 0m2 -> noun),самостил,noun,сам,pron,стлать,verb
+rule446(verb + 0m2 -> noun),панелевоз,noun,панель,noun,возить,verb
+rule446(verb + 0m2 -> noun),дармоед,noun,даром,adv,есть,verb
+rule446(verb + 0m2 -> noun),сенокос,noun,сено,noun,косить,verb
+rule446(verb + 0m2 -> noun),водопой,noun,вода,noun,пить,verb
+rule446(verb + 0m2 -> noun),звездопад,noun,звезда,noun,падать,verb
+rule446(verb + 0m2 -> noun),водозабор,noun,вода,noun,забирать,verb
+rule446(verb + 0m2 -> noun),лесовод,noun,лес,noun,водить,verb
+rule446(verb + 0m2 -> noun),воздуховод,noun,воздух,noun,водить,verb
+rule446(verb + 0m2 -> noun),глиномял,noun,глино,noun,мять,verb
+rule446(verb + 0m2 -> noun),чародей,noun,чары,noun,деять,verb
+rule446(verb + 0m2 -> noun),книгокрад,noun,книга,noun,красть,verb
+rule446(verb + 0m2 -> noun),рыбовод,noun,рыба,noun,водить,verb
+rule446(verb + 0m2 -> noun),водоклюй,noun,вода,noun,клевать,verb
+rule446(verb + 0m2 -> noun),маслодел,noun,масло,noun,делать,verb
+rule446(verb + 0m2 -> noun),водопад,noun,вода,noun,падать,verb
+rule446(verb + 0m2 -> noun),водовод,noun,вода,noun,водить,verb
+rule446(verb + 0m2 -> noun),ветродуй,noun,ветер,noun,дуть,verb
+rule446(verb + 0m2 -> noun),чеховед,noun,Чехов,prop,ведать,verb
+rule446(verb + 0m2 -> noun),людоед,noun,люди,noun,есть,verb
+rule446(verb + 0m2 -> noun),шелкопряд,noun,шёлк,noun,прясть,verb
+rule446(verb + 0m2 -> noun),кукловод,noun,кукла,noun,водить,verb
+rule446(verb + 0m2 -> noun),короед,noun,кора,noun,есть,verb
+rule446(verb + 0m2 -> noun),доброхот,noun,добрый,adj,хотеть,verb
+rule446(verb + 0m2 -> noun),глазомер,noun,глаз,noun,мерить,verb
+rule446(verb + 0m2 -> noun),яблокрад,noun,яблоко,noun,красть,verb
+rule446(verb + 0m2 -> noun),счетовод,noun,счёт,noun,водить,verb
+rule446(verb + 0m2 -> noun),пеплопад,noun,пепел,noun,падать,verb
+rule451(verb + 0f1 -> noun),дровосека,noun,дрова,noun,сечь,verb
+rule451(verb + 0f1 -> noun),лесотаска,noun,лес,noun,таскать,verb
+rule451(verb + 0f1 -> noun),горемыка,noun,горе,noun,мыкать,verb
+rule454(verb + 0f3 -> noun),скороходь,noun,скорый,adj,ходить,verb
+rule454(verb + 0f3 -> noun),звукопись,noun,звук,noun,писать,verb
+rule580(noun + 0 -> noun),восьминог,noun,восемь,num,нога,noun
+rule580(noun + 0 -> noun),щелкопер,noun,щелкать,verb,перо,noun
+rule580(noun + 0 -> noun),долгонос,noun,долгий,adj,нос,noun
+rule580(noun + 0 -> noun),верболоз,noun,верба,noun,лоза,noun
+rule580(noun + 0 -> noun),двучлен,noun,два,num,член,noun
+rule580(noun + 0 -> noun),винтокрыл,noun,винт,noun,крыло,noun
+rule580(noun + 0 -> noun),желтощёк,noun,жёлтый,adj,щека,noun
+rule580(noun + 0 -> noun),хлебосол,noun,хлеб,noun,соль,noun
+-0f3,шилохвость,noun,шило,noun,хвост,noun
+-0f1,белобока,noun,белый,adj,бок,noun
+rule550([noun + ITFX] + noun -> noun),нервотрёпка,noun,нерв,noun,трёпка,noun
+rule550([noun + ITFX] + noun -> noun),лесостепь,noun,лес,noun,степь,noun
+rule550([noun + ITFX] + noun -> noun),кораблекрушение,noun,корабль,noun,крушение,noun
+rule550([noun + ITFX] + noun -> noun),сеноуборка,noun,сено,noun,уборка,noun
+rule550([noun + ITFX] + noun -> noun),лесозаготовка,noun,лес,noun,заготовка,noun
+rule550([noun + ITFX] + noun -> noun),дачевладелец,noun,дача,noun,владелец,noun
+rule550([noun + ITFX] + noun -> noun),тылофронт,noun,тыл,noun,фронт,noun
+rule550([noun + ITFX] + noun -> noun),чудо-печка,noun,чудо,noun,печка,noun
+rule550([noun + ITFX] + noun -> noun),носоглотка,noun,нос,noun,глотка,noun
+rule550([noun + ITFX] + noun -> noun),человеко-дятел,noun,человек,noun,дятел,noun
+rule550([noun + ITFX] + noun -> noun),местопребывание,noun,место,noun,пребывание,noun
+rule550([noun + ITFX] + noun -> noun),жирозаменитель,noun,жир,noun,заменитель,noun
+rule550([noun + ITFX] + noun -> noun),радиолюбитель,noun,радио,noun,любитель,noun
+rule550([noun + ITFX] + noun -> noun),лжеучитель,noun,ложь,noun,учитель,noun
+rule550([noun + ITFX] + noun -> noun),радиотехника,noun,радио,noun,техника,noun
+rule550([noun + ITFX] + noun -> noun),полуавтомат,noun,половина,noun,автомат,noun
+rule550([noun + ITFX] + noun -> noun),станкоград,noun,станок,noun,град,noun
+rule550([adj + ITFX] + noun -> noun),главнокомандующий,noun,главный,adj,командующий,part
+rule550([adj + ITFX] + noun -> noun),самодисциплина,noun,сам,pron,дисциплина,noun
+rule550([adj + ITFX] + noun -> noun),самопроверка,noun,сам,pron,проверка,noun
+rule550([adj + ITFX] + noun -> noun),взаимопонимание,noun,взаимный,adj,понимание,noun
+rule550([adj + ITFX] + noun -> noun),новостройка,noun,новый,adj,стройка,noun
+rule550([adj + ITFX] + noun -> noun),самоуслаждение,noun,сам,pron,услаждение,noun
+rule550([num + ITFX] + noun -> noun),двутавро,noun,два,num,тавро,noun
+rule1028*(noun + GEN -> noun),полбеды,noun,половина,noun,беда,noun
+rule1028*(noun + GEN -> noun),полпроцента,noun,половина,noun,процент,noun
+FOREIGN,таксометр,noun,такси,noun,метр,glroot
+FOREIGN,радиограмма,noun,радио,glroot,грамма,glroot
+FOREIGN,вибростенд,noun,вибро,glroot,стенд,noun
+FOREIGN,псевдокислота,noun,псевдо,glroot,кислота,noun
+FOREIGN,телестудия,noun,теле,glroot,студия,noun
+FOREIGN,сейсмостанция,noun,сейсмо,glroot,станция,noun
+FOREIGN,граммофон,noun,грамма,glroot,фон,glroot
+FOREIGN,термоизоляция,noun,термо,glroot,изоляция,noun
+FOREIGN,дециметр,noun,деци,glroot,метр,noun
+FOREIGN,автоцистерна,noun,авто,glroot,цистерна,noun
+FOREIGN,автотрасса,noun,авто,glroot,трасса,noun
+FOREIGN,вариорама,noun,варио,glroot,рама,glroot
+FOREIGN,метеоракета,noun,метео,glroot,ракета,noun
+FOREIGN,пневмотранспорт,noun,пневмо,glroot,транспорт,noun
+FOREIGN,аэропорт,noun,аэро,glroot,порт,noun
+FOREIGN,зоогеография,noun,зоо,glroot,география,noun
+FOREIGN,библиотека,noun,библио,glroot,тека,glroot
+FOREIGN,сейсмограф,noun,сейсмо,glroot,граф,glroot
+FOREIGN,микрорентген,noun,микро,glroot,рентген,noun
+FOREIGN,псевдонаука,noun,псевдо,glroot,наука,noun
+FOREIGN,психогигиена,noun,психо,glroot,гигиена,noun
+FOREIGN,аглофабрика,noun,агло,glroot,фабрика,noun
+FOREIGN,фонометр,noun,фоно,glroot,метр,glroot
+FOREIGN,винотека,noun,вино,noun,тека,glroot
+FOREIGN,авиабомба,noun,авиа,glroot,бомба,noun
+FOREIGN,сахариметр,noun,сахар,noun,метр,glroot
+FOREIGN,электроорган,noun,электро,glroot,орган,noun
+FOREIGN,ракетодром,noun,ракета,noun,дром,glroot
+FOREIGN,фотометрия,noun,фото,glroot,метр,glroot
+FOREIGN,фотоочерк,noun,фото,glroot,очерк,noun
+FOREIGN,диалектолог,noun,диалект,noun,лог,glroot
+FOREIGN,неоколониализм,noun,нео,glroot,колониализм,noun
+FOREIGN,троллейкар,noun,троллей,glroot,кар,glroot
+FOREIGN,мотолодка,noun,мото,glroot,лодка,noun
+FOREIGN,автобус,noun,авто,glroot,бус,glroot
+FOREIGN,энергосистема,noun,энерго,glroot,система,noun
+FOREIGN,электросварка,noun,электро,glroot,сварка,noun
+FOREIGN,славянофил,noun,славяне,noun,фил,glroot
+FOREIGN,гидродинамика,noun,гидро,glroot,динамика,noun
+FOREIGN,блиц-поездка,noun,блиц,glroot,поездка,noun
+FOREIGN,троллейбус,noun,троллей,glroot,бус,glroot
+FOREIGN,метеоусловия,noun,метео,glroot,условия,noun
+FOREIGN,психопатология,noun,психо,glroot,патология,noun
+FOREIGN,бензобак,noun,бензо,glroot,бак,noun
+FOREIGN,радиогалактика,noun,радио,glroot,галактика,noun
+FOREIGN,термофилия,noun,термо,glroot,фил,glroot
+FOREIGN,видеомагнитофон,noun,видео,glroot,магнитофон,noun
+FOREIGN,микромир,noun,микро,glroot,мир,noun
+FOREIGN,астрогеология,noun,астро,glroot,геология,noun
+FOREIGN,макро-событие,noun,макро,glroot,событие,noun
+FOREIGN,изостудия,noun,изо,glroot,студия,noun
+FOREIGN,термофил,noun,термо,glroot,фил,glroot
+FOREIGN,фонотека,noun,фоно,glroot,тека,glroot
+FOREIGN,пиротолкатель,noun,пиро,glroot,толкатель,noun
+FOREIGN,патолог,noun,пато,glroot,лог,glroot
+FOREIGN,гермоперчатка,noun,гермо,glroot,перчатка,noun
+FOREIGN,арифмометр,noun,арифмо,glroot,метр,glroot
+FOREIGN,макромир,noun,макро,glroot,мир,noun
+FOREIGN,велофигурист,noun,вело,glroot,фигурист,noun
+FOREIGN,гелиофизика,noun,гелио,glroot,физика,noun
+FOREIGN,автовагон,noun,авто,glroot,вагон,noun
+FOREIGN,библиофил,noun,библио,glroot,фил,glroot
+FOREIGN,сейсмограмма,noun,сейсмо,glroot,грамма,glroot
+FOREIGN,психопрофилактика,noun,психо,glroot,профилактика,noun
+FOREIGN,физиотерапия,noun,физио,glroot,терапия,noun
+FOREIGN,виброплуг,noun,вибро,glroot,плуг,noun
+FOREIGN,типограф,noun,тип,noun,граф,glroot
+FOREIGN,хроморетушер,noun,хромо,glroot,ретушер,noun
+FOREIGN,мегатонна,noun,мега,glroot,тонна,noun
+FOREIGN,пневмоавтоматика,noun,пневмо,glroot,автоматика,noun
+FOREIGN,микрометр,noun,микро,glroot,метр,glroot
+FOREIGN,блицпоход,noun,блиц,glroot,поход,noun
+FOREIGN,автопробег,noun,авто,glroot,пробег,noun
+FOREIGN,изопродукция,noun,изо,glroot,продукция,noun
+FOREIGN,графоман,noun,граф,glroot,ман,glroot
+FOREIGN,иммунолог,noun,иммуно,glroot,лог,glroot
+FOREIGN,сантиграмм,noun,санти,glroot,грамм,noun
+FOREIGN,гидролокация,noun,гидро,glroot,локация,glroot
+FOREIGN,макси-польза,noun,макси,glroot,польза,noun
+FOREIGN,лексикограф,noun,лексика,noun,граф,glroot
+FOREIGN,авиастроитель,noun,авиа,glroot,строитель,noun

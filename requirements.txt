@@ -1,0 +1,8 @@
+gensim
+numpy
+overrides==3.1.0
+pandas
+pymorphy2
+scikit-learn
+torch==1.9.0
+tqdm
